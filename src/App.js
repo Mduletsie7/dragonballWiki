@@ -8,6 +8,8 @@ import Hero from './components/Hero'
 import Newsletter from './components/Newsletter';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarTop from './components/Navbar';
+import DBFighterz from './components/DBFighterz';
+import YoutubeEmbed from './components/YoutubeEmbed';
 
 function App() {
   return (
@@ -15,7 +17,12 @@ function App() {
       <Header />
       <NavbarTop />
       <Hero />
-      <Greet name="Kelvin" heroName="Vegeta">
+      <DBFighterz title="Dragon Ball FighterZ" rating="9/10 Steam ">
+      <p>"There’s only one certainty in life. A strong man stands above and conquers all!"</p>
+        <img src={process.env.PUBLIC_URL + "/images/Vegeta.jpg"} width="820" alt='Vegeta ultra ego'/>
+      </DBFighterz>
+      <YoutubeEmbed embedId='n5rMnfqL5Os' />
+      {/* <Greet name="Kelvin" heroName="Vegeta"> 
         <p>"There’s only one certainty in life. A strong man stands above and conquers all!"</p>
         <img src={process.env.PUBLIC_URL + "/images/Vegeta.jpg"} width="820" alt='Vegeta ultra ego'/>
         </Greet>
@@ -26,7 +33,7 @@ function App() {
       <Greet name="Caylin" heroName="Broly">
       <p>"Rragh!" "Give me the ultimate power!" "Make me immortal!"</p>
         <img src={process.env.PUBLIC_URL + "/images/Broly.jpg"} width="820" alt='Vegeta ultra ego'/>
-        </Greet>
+        </Greet> */}
         <Newsletter />
         <Footer />
       {/* <Hello /> */}

@@ -19,7 +19,7 @@ function NavbarTop() {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="https://dragonball.fandom.com/wiki/Main_Page" target="blank">Original Site</Nav.Link>
+            <Nav.Link href="https://dragonball.fandom.com/wiki/Main_Page" target="blank">Buy Merch</Nav.Link>
             <NavDropdown title="Hero" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Watch Dragonball Super Online Free</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
